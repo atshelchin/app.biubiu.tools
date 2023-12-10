@@ -39,19 +39,15 @@ jobs:
       - uses: tauri-apps/tauri-action@v0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          appName: 'BiuBiuTools'
-          productName: 'BiuBiu'
-          appVersion: v__VERSION__
         with:
           tagName: app-v__VERSION__ # the action automatically replaces \_\_VERSION\_\_ with the app version
           releaseName: 'App v__VERSION__'
           releaseBody: 'See the assets to download this version and install.'
           releaseDraft: true
           distPath: ../dist
-          iconPath: ../dist/favicon.png
+          iconPath: ./icons/app_512.png
           bundleIdentifier: 'tools.biubiu.app'
           includeUpdaterJson: false
-          appName: "BiuBiu"
-          appVersion: "1.1.0"
+          args: --config custom-config.json
    
 
