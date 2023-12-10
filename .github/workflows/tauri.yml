@@ -46,8 +46,10 @@ jobs:
           releaseBody: 'See the assets to download this version and install.'
           releaseDraft: true
           distPath: ../dist
+          iconPath: ../icons
           bundleIdentifier: 'tools.biubiu.app'
-          appName: 'BiuBiu.Tools'
+          appName: 'BiuBiuTools'
+          productName: 'BiuBiu'
           appVersion: v__VERSION__
           includeUpdaterJson: false
 
