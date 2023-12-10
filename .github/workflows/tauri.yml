@@ -49,4 +49,5 @@ jobs:
           bundleIdentifier: 'tools.biubiu.app'
           appName: 'BiuBiu.Tools'
           appVersion: v__VERSION__
+          includeUpdaterJson: false
 
