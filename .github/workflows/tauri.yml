@@ -48,8 +48,10 @@ jobs:
           releaseBody: 'See the assets to download this version and install.'
           releaseDraft: true
           distPath: ../dist
-          iconPath: ../icons/app_512.png
+          iconPath: ../dist/favicon.png
           bundleIdentifier: 'tools.biubiu.app'
           includeUpdaterJson: false
+          appName: "BiuBiu"
+          appVersion: "1.1.0"
    
 
