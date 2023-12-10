@@ -44,3 +44,7 @@ jobs:
           releaseName: 'App v__VERSION__'
           releaseBody: 'See the assets to download this version and install.'
           releaseDraft: true
+          bundleIdentifier: 'tools.biubiu.app'
+          appName: 'BiuBiu.Tools'
+          appVersion: v__VERSION__
+
